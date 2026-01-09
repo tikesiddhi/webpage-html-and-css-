@@ -1,0 +1,113 @@
+*{
+    padding:0; margin:0;
+    box-sizing: border-box;
+    font:arial,sans-serif;
+}
+.navbar{
+    display:flex;
+    justify-content: space-evenly;
+    padding:15px;
+    background-color: black;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-decoration-line: none;
+}
+.navbar a{
+    color: white;
+    text-decoration: wavy ;
+    text-decoration-color: cyan;
+}
+.logo{
+    color:aliceblue;
+    font-style: italic;
+}
+.hero{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(99, 89, 248);
+}
+.hero img{
+    border-radius: 50%;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color:white;
+}
+button:hover{
+    background-color: rgb(62, 100, 100);
+}
+.about{
+    padding: 50px;
+    text-align: center;
+    border:black;
+}
+.about-box{
+    display:flex;
+    gap:20px;
+}
+.skills{
+    padding: 50px;
+}
+.bar{
+    background-color: #ddd;
+    height: 10px;
+    margin-bottom: 20px;
+}
+.fill{
+    height: 10px;
+}
+.html { width: 90%; background: #f97316;}
+.css { width: 85%; background: #3b82f6; }
+.java { width: 75%; background: #22c55e; }
+.education{
+    padding:50px;
+}
+table{
+    width: 100%;
+}
+th,td{
+    border: 1px solid black;
+}
+.projects{
+    padding: 50px;
+    gap:20px;
+}
+.card{
+    padding:20px;
+    box-shadow: 0 0 10px #ccc;
+
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.contact{
+    padding:50px;
+}
+form input,textarea{
+      width: 100%;
+    margin: 10px ;
+    padding: 10px;
+}
+footer{
+    padding:15px;
+    background-color:rgb(12, 153, 158);
+    color: #ddd;
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    .navbar ul{
+        flex-direction:column;
+    }
+    .hero{
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+    
